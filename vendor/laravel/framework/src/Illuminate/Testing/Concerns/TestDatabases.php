@@ -160,7 +160,7 @@ trait TestDatabases
         } else {
             config()->set(
                 "database.connections.{$default}.database",
-                $database,
+                $database
             );
         }
     }
