@@ -1,6 +1,7 @@
 <?php
 
 use App\Http\Controllers\ListJasaController;
+use App\Http\Controllers\Showcase;
 use Illuminate\Foundation\Application;
 use Illuminate\Support\Facades\Route;
 use Inertia\Inertia;
@@ -30,3 +31,4 @@ Route::middleware(['auth:sanctum', 'verified'])->get('/dashboard', function () {
 })->name('dashboard');
 
 Route::get('/listjasa', [ListJasaController::class, 'index']);
+Route::get('/showcase', [Showcase::class, 'index']);
