@@ -4,6 +4,7 @@ use App\Http\Controllers\ListJasaController;
 use App\Http\Controllers\Showcase;
 use App\Http\Controllers\HomePageController;
 use App\Http\Controllers\UserPageController;
+use App\Http\Controllers\AboutUsController;
 use Illuminate\Foundation\Application;
 use Illuminate\Support\Facades\Route;
 use Inertia\Inertia;
@@ -36,3 +37,5 @@ Route::get('/listjasa', [ListJasaController::class, 'index']);
 Route::get('/showcase', [Showcase::class, 'index']);
 Route::get('/home', [HomePageController::class, 'index']);
 Route::get('/user', [UserPageController::class, 'index']);
+Route::get('/aboutus', [AboutUsController::class, 'index']);
+
