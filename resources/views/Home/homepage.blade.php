@@ -34,33 +34,92 @@
     </div>
 </nav>
 
-<div class="bungkus">
-    <div class="head">
-        <img class="head" src="{{ asset('produkListJasa/yurin.png') }}" alt="Head">
-    </div>
+<div class="jumbotron">
+	<img class= "img-circle" src="{{ asset('produkListJasa/bapak.png') }}">
+    <h1> udin hajat</h1>
+    <p>maker of the opera house and many more</p>
+</div>
 
+<section class= "work" id = "work">
+    <div class="container">
+        <div class="row">
+        <div class="col-sm-12">
+        <h2 class="text-center"> Recent Works </h2>
+        <hr>
+        </div>
+        </div>
+
+        <div class="row">
+        <div class="col-sm-4">
+        <img src="{{ asset('produkListJasa/home1.png') }}" class="img-thumbnail">
+        <br></br>
+        </div>
+
+        <div class="col-sm-8">
+        <h3>Kategori </h3>
+        <h3>judul</h3>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.
+        Fugiat vero, aperiam voluptates sapiente quasi quaerat molestiae,
+        beatae omnis mollitia aliquid nobis? Eveniet nulla aliquid perferendis
+        illum excepturi fugiat maxime ipsum?</p>
+        <a href="www.google.com/">Pelajari Lebih Lanjut</a>
+        <div>
+        
+        </div>
+    </div>
     <br></br>
+    <div class="container">
+        
 
-    <div class = "work">
-        <h2>Recent Works</h2>
+        <div class="row">
+        <div class="col-sm-4">
+        <img src="{{ asset('produkListJasa/home1.png') }}" class="img-thumbnail">
+        <br></br>
+        </div>
+
+        <div class="col-sm-8">
+        <h3>Kategori </h3>
+        <h3>judul</h3>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.
+        Fugiat vero, aperiam voluptates sapiente quasi quaerat molestiae,
+        beatae omnis mollitia aliquid nobis? Eveniet nulla aliquid perferendis
+        illum excepturi fugiat maxime ipsum?</p>
+        <a href="www.google.com/">Pelajari Lebih Lanjut</a>
+        <div>
+        
+        </div>
     </div>
+    <br></br>
+    <div class="container">
+        
 
-    <div class="kiri">
-        <div clas="home1">
-         <img class="home1" src="{{ asset('produkListJasa/home1.png') }}" alt="Home1">
+        <div class="row">
+        <div class="col-sm-4">
+        <img src="{{ asset('produkListJasa/home1.png') }}" class="img-thumbnail">
+        <br></br>
+        </div>
+
+        <div class="col-sm-8">
+        <h3>Kategori </h3>
+        <h3>judul</h3>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.
+        Fugiat vero, aperiam voluptates sapiente quasi quaerat molestiae,
+        beatae omnis mollitia aliquid nobis? Eveniet nulla aliquid perferendis
+        illum excepturi fugiat maxime ipsum?</p>
+        <a href="www.google.com/">Pelajari Lebih Lanjut</a>
+        <div>
+        
         </div>
     </div>
 
+</section>
 
-    <div class="kanan">
-        <div class="home1bla">
-          <h2>lorem ipsum</h2>
-         </div>
+
+
+<footer>
+    <div class="container">
+        <div class="row">
+            
+        </div>
     </div>
-</div>
-
-
-
-
-<div class="footer">
-</div>
+</footer>

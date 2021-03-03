@@ -45,42 +45,33 @@ main p {
     font-size: 12px;
 }
 
-.head{
-	width:100%;
-	height:400px
+html{
+	position: relative;
 }
 
-.work h2{
-	text-align:center;
-	padding:30px;
+body{
+	margin-bottom: 170px;
 }
 
-.kiri{
-	width:40%;
-	height:1000px;
-	background-color: skyblue;
-	display:inline-block;
-	}
-	
-	
-.home1{
-	width:100%;
-	height:300px;
-	background-color: skyblue;
-	padding:20px;
-	}
-	
-.kanan{
-	width:60%;
-	height:1000px;
-	background-color: black;
-	display:inline-block;
-	
-	}
-	
-.footer{
-	width:100%;
-	height:200px;
-	background-color:gray;
+.jumbotron {
+	background-image: url('../produkListJasa/yurin.png');
+}
+
+.jumbotron img{
+	width: 200px;
+	border: 3px solid #666;
+}
+
+.work hr{
+	width:400px;
+	border-top:3px solid #666;
+}
+
+footer{
+	position: absolute;
+	bottom: 0;
+	width: 100%;
+	height: 170px;
+	background-color: #333;
 }
 	
