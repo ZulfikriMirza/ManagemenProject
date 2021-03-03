@@ -55,6 +55,7 @@ body{
 
 .jumbotron {
 	background-image: url('../produkListJasa/yurin.png');
+	height: 70vh;
 }
 
 .jumbotron img{
@@ -62,10 +63,20 @@ body{
 	border: 3px solid #666;
 }
 
+.jumbotron h1{
+	color: white;
+}
+
+.jumbotron p{
+	color: white;
+}
+
 .work hr{
-	width:400px;
+	width:1100px;
 	border-top:3px solid #666;
 }
+
+
 
 footer{
 	position: absolute;
@@ -75,3 +86,7 @@ footer{
 	background-color: #333;
 }
 	
+.row h2{
+	color:white;
+	
+}

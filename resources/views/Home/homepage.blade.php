@@ -46,6 +46,7 @@
         <div class="col-sm-12">
         <h2 class="text-center"> Recent Works </h2>
         <hr>
+        <br></br>
         </div>
         </div>
 
@@ -119,7 +120,7 @@
 <footer>
     <div class="container">
         <div class="row">
-            
+        <h2>footer</h2>
         </div>
     </div>
 </footer>
