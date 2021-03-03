@@ -1,0 +1,86 @@
+@import url("https://fonts.googleapis.com/css2?family=Exo:wght@200;400;800&display=swap");
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #f7d4a9;
+}
+
+nav,
+h1 {
+    font-family: "Exo", sans-serif;
+    font-weight: 800;
+}
+
+label {
+    font-family: "Exo", sans-serif;
+    font-weight: 400;
+}
+
+main {
+    color: black;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    height: 100%;
+    width: 100%;
+    margin-bottom: 50px;
+    position: relative;
+    background-size: cover;
+}
+
+main h1,
+main button {
+    text-transform: uppercase;
+}
+
+main h1 {
+    font-size: 25px;
+    position: center;
+}
+main p {
+    font-size: 12px;
+}
+
+.head{
+	width:100%;
+	height:400px
+}
+
+.work h2{
+	text-align:center;
+	padding:30px;
+}
+
+.kiri{
+	width:40%;
+	height:1000px;
+	background-color: skyblue;
+	display:inline-block;
+	}
+	
+	
+.home1{
+	width:100%;
+	height:300px;
+	background-color: skyblue;
+	padding:20px;
+	}
+	
+.kanan{
+	width:60%;
+	height:1000px;
+	background-color: black;
+	display:inline-block;
+	
+	}
+	
+.footer{
+	width:100%;
+	height:200px;
+	background-color:gray;
+}
+	
