@@ -5,6 +5,7 @@ use App\Http\Controllers\Showcase;
 use App\Http\Controllers\HomePageController;
 use App\Http\Controllers\UserPageController;
 use App\Http\Controllers\AboutUsController;
+use App\Http\Controllers\ContactController;
 use Illuminate\Foundation\Application;
 use Illuminate\Support\Facades\Route;
 use Inertia\Inertia;
@@ -33,9 +34,33 @@ Route::middleware(['auth:sanctum', 'verified'])->get('/dashboard', function () {
     return Inertia::render('Dashboard');
 })->name('dashboard');
 
+
+//------------------Controller List Jasa------------------//
 Route::get('/listjasa', [ListJasaController::class, 'index']);
+
+
+
+
+//------------------Controller Showcase------------------//
 Route::get('/showcase', [Showcase::class, 'index']);
+
+
+
+//------------------Controller Home------------------//
 Route::get('/home', [HomePageController::class, 'index']);
+
+
+//------------------Controller User------------------//
 Route::get('/user', [UserPageController::class, 'index']);
+
+
+
+//------------------Controller About Us------------------//
 Route::get('/aboutus', [AboutUsController::class, 'index']);
+
+
+
+
+//------------------Controller Contact------------------//
+Route::get('/contact', [ContactController::class, 'index']);
 
