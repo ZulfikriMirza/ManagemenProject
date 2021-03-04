@@ -47,7 +47,7 @@ Route::get('/showcase', [Showcase::class, 'index']);
 
 
 //------------------Controller Home------------------//
-Route::get('/home', [HomePageController::class, 'index']);
+Route::get('/', [HomePageController::class, 'index']);
 
 
 //------------------Controller User------------------//
